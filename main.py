@@ -10,3 +10,5 @@ def read_root():
 @app.get("/hello/{name}")
 def hello(name: str):
     return {"message": f"こんにちは、{name}さん！"}
+
+
